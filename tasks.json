@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+        "label": "[WORKSPACE] Launch Workspace",
+        "type": "shell",
+        "command": [
+            "Clear-Host;",
+            "Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process;",
+            "${workspaceFolder}\\.vscode\\python\\setup.ps1"
+        ],
+        "group": "build"
+    }
+  ]
+}
